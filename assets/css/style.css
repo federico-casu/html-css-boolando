@@ -63,16 +63,17 @@ main {
 }
 
 .card-container {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    margin-block: 50px;
 }
 
 .card-container .card{
     width: calc((100% / 3) - (30px / 3));
     position: relative;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .card-container .card img {
