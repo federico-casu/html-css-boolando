@@ -81,6 +81,14 @@ main {
     display: block;
 }
 
+/* Bonus */
+.card-container .card .hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
 .card-container .card .card-details .brand {
     font-size: 15px;
 }
@@ -164,7 +172,16 @@ footer .container .info a {
     font-size: 10px;
 }
 
+footer .container .socials i {
+    cursor: pointer;
+}
 
+/* Bonus */
+main .card-container .card:hover .hidden {
+    display: block;
+}
+
+/*  */
 
 
 
