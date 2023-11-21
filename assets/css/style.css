@@ -123,8 +123,7 @@ main {
     padding: 2px 5px;
 }
 
-.card-container .card .fav::after {
-    content: '\2665';
+.card-container .card .fav {
     color: black;
     background-color: white;
     padding: 3px 12px;
@@ -132,6 +131,40 @@ main {
     position: absolute;
     top: 10px;
     right: 0;
+    cursor: pointer;
 }
+
+.card-container .card .fav:hover {
+    color: red;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+    line-height: 20px;
+}
+
+footer .container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+footer .container .info a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+
+
 
 
